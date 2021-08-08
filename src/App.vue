@@ -1,26 +1,24 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template lang="pug">
+q-bar(class="")
+  q-item-section
+    h5 CRYPTONOMICON
+  q-separator
+  q-item(clickable) HEllO
+  q-item-section Login
+  q-item-section Sign up
+  q-item-section(side)
+    q-icon(name="keyboard_arrow_right")
+
+div(class="formTicker")
+div(class="cardField row")
+div(class="footer")
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
 </style>
